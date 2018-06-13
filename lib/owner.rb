@@ -66,6 +66,6 @@ end
   end 
   
   def list_pets 
-    "I have "
+    "I have #pets"
   end 
 end
