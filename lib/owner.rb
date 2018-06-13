@@ -55,11 +55,13 @@ end
   def feed_fish 
     pets[:fishes].each do |fish|
 +			fish.mood = "happy"
+end 
   end 
   
   def sell_pets 
     pets.eacho do |pet|
       pets.mood = "nervous"
+    end 
   end 
   
   def list_pets 
