@@ -64,7 +64,7 @@ end
 		 animals.each do |animal|
 		 	animal.mood = "nervous"
     end
-    animals.clar
+    animals.clear
   end 
 end 
   
